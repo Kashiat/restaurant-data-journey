@@ -8,14 +8,14 @@ The purpose of this exercise was to classify different examples of data by data 
 
 | Data example | Classification | Structure | Likely format / medium |
 |---|---|---|---|
-| Restaurant transaction table | Mixed: contains quantitative measures (price, quantity), qualitative categories (menu item) and identifiers (order ID) | Structured | CSV, XLSX or database table |
+| Restaurant transaction table | Mixed: contains quantitative measures (price, quantity), qualitative categories (menu item) and identifiers (order ID) | Structured | CSV or database table |
 | Customer review written online | Qualitative | Unstructured | Free text on a website, stored in a database or exported as text/JSON |
 | JSON order response from a delivery application | Mixed: can hold quantitative, qualitative and identifier fields | Semi-structured | JSON |
-| Menu price | Quantitative (a measurable value) | Structured (usually sits inside a table) | Field in a CSV, XLSX or database table |
+| Menu price | Quantitative (a measurable value) | Structured (usually sits inside a table) | Field in a CSV or database table |
 | Photograph of a meal | Qualitative | Unstructured | Image file, e.g. JPEG or PNG |
-| Restaurant branch name | Qualitative (category), can also act as an identifier-like label | Structured | Field in a CSV, XLSX or database table |
-| Number of orders each day | Quantitative (a count) | Structured | CSV, XLSX or database table |
-| Spreadsheet containing employee shifts | Mixed: qualitative (staff names, roles), quantitative (hours) and dates | Structured | XLSX or CSV |
+| Restaurant branch name | Qualitative (category), can also act as an identifier-like label | Structured | Field in a CSV or database table |
+| Number of orders each day | Quantitative (a count) | Structured | CSV or database table |
+| Spreadsheet containing employee shifts | Mixed: qualitative (staff names, roles), quantitative (hours) and dates | Structured | CSV |
 | Audio recording of a customer-support call | Qualitative | Unstructured | Audio file, e.g. WAV or MP3 |
 | Payment method | Qualitative (category, e.g. card or cash) | Structured | Field in transaction data (CSV or database table) |
 
